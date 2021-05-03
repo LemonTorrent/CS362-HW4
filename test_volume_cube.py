@@ -3,7 +3,7 @@ import volume_cube
 
 class testCaseAdd(unittest.TestCase):
     def test_pass2(self):
-        self.assertEqual(volume_cube.calcVolume(2), 8.0)
+        self.assertEqual(volume_cube.calcVolume(2), 8)
         #self.assertEqual(volume_cube.calcVolume(2), 8.0)
 
     def test_pass3_5(self):
